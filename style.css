@@ -21,6 +21,7 @@ body{
     width:960px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    
 }
 
 
@@ -29,9 +30,10 @@ header{
     background-color:#ebebeb;
     font-size: 28px;
     padding: 20px 0;
-    margin: 0;
+    margin-bottom:20px;
+    margin-left:175px;
     text-align: center;
-    margin-bottom: 20px;
+    width:100%;
 }
 
 nav{
@@ -39,9 +41,10 @@ nav{
     background-color:#ebebeb;
     font-size: 28px;
     padding: 20px 0;
-    margin: 0;
+    margin-left:175px;
     text-align: center;
     margin-bottom: 20px;
+    width:100%;
 }
 
 section{
@@ -49,54 +52,70 @@ section{
     background-color:#ebebeb;
     text-align: center;
     width: 495px;
+    margin-left:175px;
+    padding-top:20px;
+    overflow: auto;
+    margin-right:20px;
+    margin-bottom:20px;
 }
 
 article{
     color: #ebebeb;
     background-color: #777;
     text-align: center;
-
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    margin:10px 10px 10px 10px;
 }
 
-table{
-    color: #777;
-    background-color: #ebebeb;
-    text-align: center;
-}
 
 aside{
     color: #777;
     background-color:#ebebeb;
     text-align: center;
-    width: 50%;
-    padding-left: 50%;
+    height:300px;
+    float:left;
+    width:250px;
+    padding:10px 10px;
+
+}
+
+h1{ 
+    color: #777;
+    background-color:#ebebeb;
+    padding:15px 15px;
+}
+
+.p1{
+    color: #777;
+    background-color:#ebebeb;
+    padding: 15px 15px;
+}
+
+/* change margins to top right bottom left format */
+
+.leftpage{
+    float:left;
+}
+
+
+.all{
+    
 }
 
 footer{
     color: #777;
     background-color:#ebebeb;
-    margin: 0px 0px 0px 0px;
-    padding: 0%;
-    widows: 960px;
-    
+    margin-left:175px;
+    width:100%;
+    text-align: center;
+    margin-top:20px 20px;
+    clear:both;
+    padding: 10px 10px;
 }
 
-/* change margins to top right bottom left format */
 
 
 
-.leftpage{
-    width: 50%;
-    float:left;
-}
-
-.rightpage{
-    width: 50%;
-    float: right;
-}
-
-.clearfix{
-    content:"";
-    display: block;
-    clear: both;
-}
